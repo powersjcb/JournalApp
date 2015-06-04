@@ -1,0 +1,9 @@
+<h4>
+  <a href="/#/posts/<%= post.id %>"> <%= post.escape('title') %></a>
+</h4>
+<p>
+  <%= post.escape('body') %>
+</p>
+<a href="#posts/<%= post.escape('id') %>/edit">Edit</a>
+
+<button class="btn btn-danger">Delete</button>
